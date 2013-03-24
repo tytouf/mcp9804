@@ -6,10 +6,15 @@
 // This work is licensed under a Creative Commons Attribution-ShareAlike
 // 3.0 Unported License (http://creativecommons.org/licenses/by-sa/3.0/deed.en_US)
 
+// The component is configured by default with address 0x1f which means that
+// A1, A2 and A3 are all connected to Vcc.
+//
+// The I2C cables are connected to A4 and A5.
+
 #include <Wire.h>
 #include <MCP9804.h>
 
-MCP9804 sensor(0x1f);
+MCP9804 sensor(0x1f); // default address 0x1f
 
 void setup()
 {
