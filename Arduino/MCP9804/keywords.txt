@@ -1,0 +1,39 @@
+#######################################
+# Syntax Coloring Map For MCP9804
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MCP9804		KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+readTemperature	KEYWORD2
+setResolution	KEYWORD2
+setTLower	KEYWORD2
+setTUpper	KEYWORD2
+setTCrit	KEYWORD2
+getManufacturerID	KEYWORD2
+getDeviceRevisionID	KEYWORD2
+  
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+RFU		LITERAL1
+Config		LITERAL1
+TUpper		LITERAL1
+TLower		LITERAL1
+TCritical 	LITERAL1
+TAmbient	LITERAL1
+Manufacturer	LITERAL1
+DeviceRevision	LITERAL1
+Rsolution	LITERAL1
+MCP9804::R_0_5		LITERAL1
+MCP9804::R_0_25		LITERAL1
+MCP9804::R_0_125	LITERAL1
+MCP9804::R_0_0625	LITERAL1
